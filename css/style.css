@@ -1,0 +1,44 @@
+/**
+ * Theme Name: Customizr
+ * Theme URI: http://www.themesandco.com/customizr
+ * Description:  Enjoy designing a beautiful website live with the WP customizer : select skin, logo, social profiles, sliders, layout, home featured blocks, or even live css styling. The flat and fully responsive design can be used for small businesses, portfolios, blogs, corporate sites or landing pages. Built with valid HTML5 and CSS3 (from the Twitter Bootstrap), cross-browser tested, the theme is translation ready and available in 15 languages. Ready for WooCommerce, bbPress, qTranslate, the code is easily extensible with a comprehensive API of hooks.
+ * Version: 3.1.6
+ * Author: nikeo
+ * Author URI: http://www.themesandco.com/
+ * Tags: gray, white, light, blue, red, yellow, green, purple, orange, black, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, translation-ready, sticky-post, post-formats, rtl-language-support, editor-style
+ * Text Domain: customizr
+ * Copyright: (c) 2013 Nicolas GUILLAUME (nikeo), Nice, France
+ * License: GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+
+/**
+ * The styleheets of Customizr are located in inc/css. Each skin has its own stylesheet : blue.css, green.css, ...
+ *
+ * IMPORTANT : If you write your CSS code below, it will be deleted when you'll update the theme.
+ * If you want to style the css of Customizr, you can either use the Custom CSS section in the customizer (which will not be lost on update) OR create a child theme (recommended if you do many customizations) and add your css code in the style.css file of it.
+ */
+
+.ztextbox {width:250px important;}
+
+.ninja_form_header {margin-top:15px; font-size:18px; color:#cc0000;}
+.ninja_form_hr {margin-top:0px; border-color:#cc0000;}
+
+
+#loginBtnBox
+{
+background: none repeat scroll 0 0 #E9EAEE;
+    border: 1px solid #D9D9D9;
+    border-radius: 0 0 15px 15px;
+    float: right;
+    height: 40px;
+    margin: 0 15px 0 0;
+    text-align: center;
+    width: 100px;
+	border-top:none;
+}
+#loginBtnBox p
+{
+margin:6px 0 0;
+}
